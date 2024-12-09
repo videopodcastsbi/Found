@@ -1,0 +1,584 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+ 
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #F9F9F9;
+
+}
+
+.tentang {
+  max-width: 50%;
+}
+
+.tentang h2 {
+  color: #18A558;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.buttons .psb {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #18A558;
+  color: #fff;
+
+}
+
+.illustrasi img {
+  max-width: 100%;
+  height: auto;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  
+
+}
+
+.feature-card {
+  width: 230px;
+  height: 100px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.feature-icon {
+  width: 50px; 
+  height: 50px;
+  margin-bottom: 10px;
+  object-fit: contain; 
+  
+}
+
+.feature-card h4 {
+  color: #18A558; 
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+}
+
+
+.deskripsi1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 1200px;
+  position: relative;
+  padding: 20px;
+  margin: 20px auto; 
+}
+
+.deskripsi1 img {
+width: 50%;
+display: flex;
+margin: 20px;
+}
+
+.pendalamanmateri {
+  justify-content: flex-start;
+  gap: 30px;
+}
+.pendalamanmateri h3 {
+  color: #2ba84a;
+  font-size: 1.5rem;
+  margin: 20px;
+}
+
+.pendalamanmateri p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #000000;
+  margin: 20px;
+} 
+
+.pendalamanmateri ul {
+  list-style: none;
+  padding: 0;
+  margin: 50px;
+}
+
+.pendalamanmateri ul li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.pendalamanmateri ul li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 5px;
+  height: 5px;
+  background-color: #000000;
+  border-radius: 50%;
+  
+}
+
+
+.imgkegiatan {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+.deskripsi2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 1200px;
+  position: relative;
+  padding: 20px;
+  margin: 20px auto; 
+}
+
+.deskripsi2 img {
+  width: 50%;
+  display: flex;
+  margin: 20px;
+  order: 2;
+  }
+
+  .pendalamanmateri2 {
+    justify-content: flex-start;
+    gap: 30px;
+    order: 1;
+  } 
+
+  .pendalamanmateri2 h3 {
+    color: #2ba84a;
+    font-size: 1.5rem;
+    margin: 20px;
+  }
+
+  .pendalamanmateri2 p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #000000;
+    margin: 20px;
+    
+  } 
+  
+  .pendalamanmateri2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 50px;
+  }
+
+  .pendalamanmateri2 ul li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 10px;
+  
+  }
+
+  .pendalamanmateri2 ul li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 5px;
+    height: 5px;
+    background-color: #000000;
+    border-radius: 50%;
+    
+  }
+  
+  .imgkegiatan2 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+  }
+
+  .deskripsi3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 1200px;
+    position: relative;
+    padding: 20px;
+    margin: 20px auto; 
+  }
+  
+  .deskripsi3 img {
+  width: 50%;
+  display: flex;
+  margin: 20px;
+  }
+  
+  .pendalamanmateri3 {
+    justify-content: flex-start;
+    gap: 30px;
+  }
+  .pendalamanmateri3 h3 {
+    color: #2ba84a;
+    font-size: 1.5rem;
+    margin: 20px;
+  }
+  
+  .pendalamanmateri3 p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #000000;
+    margin: 20px;
+  } 
+  
+  .pendalamanmateri3 ul {
+    list-style: none;
+    padding: 0;
+    margin: 50px;
+  }
+  
+  .pendalamanmateri3 ul li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 10px;
+  }
+  
+  .pendalamanmateri3 ul li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 5px;
+    height: 5px;
+    background-color: #000000;
+    border-radius: 50%;
+    
+  }
+  
+  
+  .imgkegiatan3 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+  }
+
+  .deskripsi4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 1200px;
+    position: relative;
+    padding: 20px;
+    margin: 20px auto; 
+  }
+  
+  .deskripsi4 img {
+    width: 50%;
+    display: flex;
+    margin: 20px;
+    order: 2;
+    }
+  
+    .pendalamanmateri4 {
+      justify-content: flex-start;
+      gap: 30px;
+      order: 1;
+    } 
+  
+    .pendalamanmateri4 h3 {
+      color: #2ba84a;
+      font-size: 1.5rem;
+      margin: 20px;
+    }
+  
+    .pendalamanmateri4 p {
+      margin-bottom: 15px;
+      font-size: 1rem;
+      color: #000000;
+      margin: 20px;
+      
+    } 
+    
+    .pendalamanmateri4 ul {
+      list-style: none;
+      padding: 0;
+      margin: 50px;
+    }
+  
+    .pendalamanmateri4 ul li {
+      position: relative;
+      margin-bottom: 10px;
+      padding-left: 10px;
+    
+    }
+  
+    .pendalamanmateri4 ul li:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 5px;
+      width: 5px;
+      height: 5px;
+      background-color: #000000;
+      border-radius: 50%;
+      
+    }
+    
+    .imgkegiatan4 {
+      display: flex;
+      flex-direction: row;
+      margin-right: 10px;
+    }
+  
+  .academy-partner {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .academy-partner h2 {
+    font-size: 24px;
+    color: #18A558; 
+    margin: 50px;
+    text-align: left;
+    margin-left: 160px;
+  }
+  
+  .partner-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 50px;
+  }
+  
+  .partner-img img{
+    max-width: 250px; 
+    max-height: 150px; 
+    object-fit: contain; 
+    margin: 25px;
+  }
+  
+  
+  .partner-img2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 50px;
+  }
+  
+  .partner-img2 img{
+    max-width: 350px; 
+    max-height: 150px; 
+    object-fit: contain; 
+    margin: 25px;
+  }
+  
+
+  .biaya-pendidikan {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .biaya-pendidikan h2 {
+    font-size: 24px;
+    color: #18A558; 
+    margin: 50px;
+    text-align: left;
+    margin-left: 160px;
+  }
+  
+  .tabel-biaya {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  .tabel-biaya thead th {
+    background-color: #18A558;
+    color: #ffffff; 
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .tabel-biaya tbody tr:nth-child(odd) {
+    background-color: #D5FFE8; 
+  }
+  
+  .tabel-biaya tbody td {
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .tabel-biaya tbody tr:nth-child(even) {
+    background-color: #ffffff; 
+  }
+  
+  .tabel-biaya th,
+  .tabel-biaya td {
+    border: 1px solid #d9d9d9;
+  }
+  
+  .note {
+    color: #e53935; 
+    font-size: 14px;
+    margin-top: 10px;
+    flex-direction: row;
+  }
+  
+  .keterangan {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center; /* Memusatkan semua teks di dalam bagian */
+}
+
+.keterangan h3 {
+    font-size: 20px;
+    color: #18A558; 
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.keterangan ol {
+    margin: 0 auto; /* Memusatkan daftar berurutan */
+    padding-left: 10px;
+    font-size: 16px;
+    color: #000000; 
+    list-style-position: inside; /* Menjaga daftar tetap sejajar dalam kontainer */
+    max-width: 80%; /* Opsional: Membatasi lebar daftar agar terlihat lebih terpusat */
+}
+
+.keterangan ol li {
+    margin-bottom: 15px;
+    line-height: 1.6; 
+}
+
+.keterangan ul {
+    margin-top: 5px;
+    margin-left: 20px;
+    list-style-type: disc;
+    font-size: 14px;
+    color: #000000; 
+    max-width: 80%; /* Opsional: Membatasi lebar daftar agar terlihat lebih terpusat */
+    margin: 0 auto; /* Memusatkan daftar tidak berurutan */
+}
+
+.keterangan ul li {
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+
+  .footer {
+    background-image: url(https://smkmadinatulquran.sch.id/wp-content/uploads/2021/08/topography-pattern-1.png);
+    background-color: #18A558;
+    
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-family: Arial, sans-serif;
+    padding: 20px 10px;
+  }
+  
+  .footer-section {
+    max-width: 300px;
+    padding: 10px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+   color: white;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .footer-section p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom hr {
+    border: 0.5px solid #ffffff;
+    margin: 30px ;
+  }
+  
+  .footer-bottom p {
+    font-size: 15px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    color: #ffffff;
+    text-align: left;
+  }
